@@ -4,7 +4,6 @@ describe("Navigation", () => {
   it("Can go to the details page and back", () => {
     // First visit the page we want to test
     cy.visit("https://hyf-react-w2-example.netlify.app/");
-
     /**
      * cy.get will be your most used command as it is the way you can interact with the DOM.
      * Have a look at the documentation here: https://docs.cypress.io/api/commands/get

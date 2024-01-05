@@ -4,6 +4,7 @@ describe("Categories", () => {
   /**
    * Just like in jest we can tell Cypress to do something before every 'it' test.
    *
+   * 
    * This time we want to start every test with a fresh page, so let's visit the page again before every test.
    */
   beforeEach(() => {
